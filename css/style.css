@@ -451,6 +451,29 @@ z-index: 2;
     order: 1;
     flex-grow: 0;
     }
+
+    /* Économique */ 
+    .txtfilt {
+
+        width: 103px;
+        height: 20px;
+        
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 17px;
+        line-height: 20px;
+        /* identical to box height */
+        
+        /* Black */
+        color: #000000;
+        
+        
+        /* Inside auto layout */
+        flex: none;
+        order: 1;
+        flex-grow: 0;
+        }
     
 
 /****** Hebergements And Populaires ***********/
