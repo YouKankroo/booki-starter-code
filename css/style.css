@@ -533,6 +533,75 @@ z-index: 3;
 
     /* ----------------------------------------------------------------------------------------------------------------------------------------         */
 
+
+
+
+    /* Frame 15 */ 
+    .hebmarseille { 
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding-top: 20px;
+gap: 30px;
+
+width: 811px;
+height: 207.25px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0; } 
+
+
+/* Card/Main */  .cardheb {
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0px 0px 15px;
+gap: 4px;
+
+width: 250.33px;
+height: 207.25px;
+
+background: #FFFFFF;
+/* Shadow/Card */
+box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.1);
+border-radius: 20px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 1; } 
+
+
+/* Rectangle 20 */  .rectpic { 
+
+box-sizing: border-box;
+
+width: 250.33px;
+height: 124px;
+
+background: url(fred-kleber-gTbaxaVLvsg-unsplash.jpg);
+/* White */
+border: 5px solid #FFFFFF;
+border-radius: 20px 20px 0px 0px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+}
+
+
+
+
 /****** Hebergements And Populaires ***********/
 .hebergements-and-populaires {
     display: flex;
