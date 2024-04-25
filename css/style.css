@@ -789,7 +789,45 @@ flex-grow: 0;
                     flex-grow: 0;
                     }
 
+                    footer { /* Frame 14 */
 
+                        /* Auto layout */
+                        display: flex;
+                        flex-direction: row;
+                        align-items: flex-start;
+                        padding: 0px;
+                        gap: 30px;
+                        
+                        width: 1280px;
+                        height: 439px;
+                        
+                        
+                        /* Inside auto layout */
+                        flex: none;
+                        order: 1;
+                        align-self: stretch;
+                        flex-grow: 0;
+                        }
+
+                        .footerinf { /* A propos */
+
+                            /* Auto layout */
+                            display: flex;
+                            flex-direction: column;
+                            align-items: flex-start;
+                            padding: 20px;
+                           gap: 0px;
+                            
+                            width: 446.67px;
+                            height: 163px;
+                            
+                            
+                            /* Inside auto layout */
+                            flex: none;
+                            order: 0;
+                            align-self: stretch;
+                            flex-grow: 1;
+                            }
 
 
 /* Le code ci-dessous correspond à la version responsive uniquement */
