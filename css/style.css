@@ -543,7 +543,7 @@ z-index: 3;
 display: flex;
 flex-direction: row;
 align-items: flex-start;
-padding-top: 20px;
+padding-top: 35px;
 gap: 30px;
 
 width: 811px;
@@ -556,6 +556,24 @@ order: 1;
 align-self: stretch;
 flex-grow: 0; } 
 
+.hebmarseille2 { 
+
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding-top: 30px;
+    gap: 30px;
+    
+    width: 811px;
+    height: 207.25px;
+    
+    
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0; } 
 
 /* Card/Main */  .cardheb {
 
