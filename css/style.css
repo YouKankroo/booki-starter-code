@@ -604,6 +604,7 @@ box-sizing: border-box;
 
 width: 250.33px;
 height: 124px;
+image-rendering: pixelated;
 
 background: url(fred-kleber-gTbaxaVLvsg-unsplash.jpg);
 /* White */
@@ -682,6 +683,111 @@ flex-grow: 0;
 .populaires-cards .card-rating {
     margin-bottom: 5px;
 }
+
+
+ /* Section Activités */ .section-activité {
+
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 30px;
+    gap: 30px;
+    
+    width: 1340px;
+    height: 559.02px;
+    
+    
+    /* Inside auto layout */
+    flex: none;
+    order: 2;
+    align-self: stretch;
+    flex-grow: 0;
+    }
+
+    /* Frame 14 */ .Frame14 {
+
+        /* Auto layout */
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        padding: 0px;
+        gap: 30px;
+        
+        width: 1280px;
+        height: 439px;
+        
+        
+        /* Inside auto layout */
+        flex: none;
+        order: 1;
+        align-self: stretch;
+        flex-grow: 0;
+        }
+
+
+       /* Card */ .cardact { 
+
+            /* Auto layout */
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-end;
+            align-items: center;
+            padding: 0px;
+            
+            width: 297.5px;
+            height: 439px;
+            
+            /* Shadow/Card */
+            filter: drop-shadow(0px 3px 15px rgba(0, 0, 0, 0.1));
+            border-radius: 20px;
+            
+            /* Inside auto layout */
+            flex: none;
+            order: 0;
+            flex-grow: 1;
+            }
+
+            /* Rectangle 27 */ .rectpictact {
+
+                width: 297.5px;
+                height: 380px;
+                
+                
+                border-radius: 20px 20px 0px 0px;
+                image-rendering: pixelated;
+                image-rendering: crisp-edges;
+                
+                /* Inside auto layout */
+                flex: none;
+                order: 0;
+                align-self: stretch;
+                flex-grow: 0;
+                }
+
+                .actxt { /* Frame 16 */
+
+                    /* Auto layout */
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: flex-start;
+                    padding: 20px 19px;
+                    gap: 10px;
+                    
+                    width: 260px;
+                    height: 59px;
+                    
+                    /* White */
+                    background: #FFFFFF;
+                    border-radius: 0px 0px 20px 20px;
+                    
+                    /* Inside auto layout */
+                    flex: none;
+                    order: 1;
+                    align-self: stretch;
+                    flex-grow: 0;
+                    }
 
 
 
