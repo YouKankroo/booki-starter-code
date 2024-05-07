@@ -58,6 +58,41 @@ a {
   color: var(--main-bg-color);
 }
 
+
+.logo {  /* Logo/Reservia */
+
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 30px 50px;
+    gap: 10px;
+    
+    position: absolute;
+    width: 161.09px;
+    height: 79px;
+    left: 0px;
+    top: 0px;
+    
+    }
+
+   
+
+
+
+/* Booki */ .booki {
+
+position: absolute;
+width: 61.09px;
+height: 19px;
+left: 200px;
+top: 30px;
+
+
+}
+
+
+
 /* Menu */
 .menu {
   /* Auto layout */
@@ -444,7 +479,9 @@ a {
   flex: none;
   order: 1;
   flex-grow: 0;
+  cursor: pointer;
 }
+
 
 input {
   background-color: #0065fc;
