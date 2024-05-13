@@ -58,40 +58,31 @@ a {
   color: var(--main-bg-color);
 }
 
+.logo {
+  /* Logo/Reservia */
 
-.logo {  /* Logo/Reservia */
+  /* Auto layout */
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 30px 50px;
+  gap: 10px;
 
-    /* Auto layout */
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    padding: 30px 50px;
-    gap: 10px;
-    
-    position: absolute;
-    width: 161.09px;
-    height: 79px;
-    left: 0px;
-    top: 0px;
-    
-    }
-
-   
-
-
-
-/* Booki */ .booki {
-
-position: absolute;
-width: 61.09px;
-height: 19px;
-left: 200px;
-top: 30px;
-
-
+  position: absolute;
+  width: 161.09px;
+  height: 79px;
+  left: 0px;
+  top: 0px;
 }
 
-
+/* Booki */
+.booki {
+  position: absolute;
+  width: 61.09px;
+  height: 19px;
+  left: 200px;
+  top: 30px;
+}
 
 /* Menu */
 .menu {
@@ -130,6 +121,8 @@ top: 30px;
   flex-grow: 0;
 }
 
+
+
 /* Btn Hébergement */
 .buttonheb {
   width: 113px;
@@ -140,6 +133,8 @@ top: 30px;
   order: 0;
   flex-grow: 0;
 }
+
+.buttonheb:hover {color: #0065fc;}
 
 /* Btn Activités */
 .buttonact {
@@ -152,26 +147,7 @@ top: 30px;
   flex-grow: 0;
 }
 
-/* ******info group****** */
-
-.infogroup {
-  /* Auto layout */
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  padding: 0px;
-  gap: 25px;
-  isolation: isolate;
-
-  width: 1400px;
-  height: 281px;
-
-  /* Inside auto layout */
-  flex: none;
-  order: 0;
-  align-self: stretch;
-  flex-grow: 0;
-}
+.buttonact:hover {color: #0065fc;}
 
 /* Headline */
 .headline {
@@ -482,7 +458,6 @@ top: 30px;
   cursor: pointer;
 }
 
-
 input {
   background-color: #0065fc;
   border: none;
@@ -533,7 +508,9 @@ input {
   flex-grow: 0;
 }
 
-.filter:hover { background-color: #deebff;}
+.filter:hover {
+  background-color: #deebff;
+}
 
 /* Économique */
 .txtfilt {
@@ -821,6 +798,7 @@ input {
   border-radius: 20px 20px 0px 0px;
   image-rendering: pixelated;
   image-rendering: crisp-edges;
+  -o-object-fit: cover;
 
   /* Inside auto layout */
   flex: none;
@@ -862,10 +840,12 @@ footer {
   flex-direction: row;
   align-items: flex-start;
   padding: 0px;
-  gap: 30px;
+  gap: 30px; 
 
-  width: 1280px;
-  height: 439px;
+  background-color: #f2f2f2;
+
+  width: 1340px;
+  height: 163px;
 
   /* Inside auto layout */
   flex: none;
@@ -882,7 +862,8 @@ footer {
   flex-direction: column;
   align-items: flex-start;
   padding: 20px;
-  gap: 0px;
+ 
+  line-height: 0;
 
   width: 446.67px;
   height: 163px;
