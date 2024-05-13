@@ -533,6 +533,8 @@ input {
   flex-grow: 0;
 }
 
+.filter:hover { background-color: #deebff;}
+
 /* Économique */
 .txtfilt {
   width: 103px;
