@@ -10,7 +10,7 @@
 }
 
 .fa-solid {
-  color: var(--main-color);
+  color: #0065fc;
 }
 
 body {
@@ -65,23 +65,17 @@ a {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  padding: 30px 50px;
-  gap: 10px;
 
-  position: absolute;
+  margin-top: 20px;
+  gap: 10px;
   width: 161.09px;
   height: 79px;
-  left: 0px;
-  top: 0px;
 }
 
 /* Booki */
 .booki {
-  position: absolute;
   width: 61.09px;
   height: 19px;
-  left: 300px;
-  top: 20px;
 }
 
 /* Menu */
@@ -89,15 +83,14 @@ a {
   /* Auto layout */
   display: flex;
   flex-direction: column;
-  align-items: center;
-  padding: 0px 50px;
-  gap: 68px;
+  align-items: flex-start;
 
-  position: absolute;
+  position: relative;
+  bottom: 100px;
+  left: 1000px;
+  gap: 68px;
   width: 344px;
   height: 35px;
-  right: 500px;
-  top: 0px;
 }
 
 .buttons {
@@ -114,53 +107,29 @@ a {
 
   width: 244px;
   height: 35px;
-
-  /* Inside auto layout */
-  flex: none;
-  order: 0;
-  flex-grow: 0;
 }
-
-
-/* Blue bar */ .bluebar {
-
-position: absolute;
-width: 113px;
-height: 2px;
-
-top: 0px;
-
-/* Blue */
-background: #0065FC; }
 
 /* Btn Hébergement */
 .buttonheb {
   width: 113px;
   height: 35px;
-
-  /* Inside auto layout */
-  flex: none;
-  order: 0;
-  flex-grow: 0;
-
-  
-  
 }
 
-.buttonheb:hover {color: #0065fc;}
+.buttonheb:hover {
+  color: #0065fc;
+  border-top: 2px solid #0065fc;
+}
 
 /* Btn Activités */
 .buttonact {
   width: 63px;
   height: 35px;
-
-  /* Inside auto layout */
-  flex: none;
-  order: 1;
-  flex-grow: 0;
 }
 
-.buttonact:hover {color: #0065fc;}
+.buttonact:hover {
+  color: #0065fc; 
+  border-top: 2px solid #0065fc;
+}
 
 /* Headline */
 .headline {
@@ -214,6 +183,7 @@ background: #0065FC; }
   height: 18px;
   left: 18px;
   top: 15px;
+  color: #000000;
 }
 
 /* Rectangle 14 */
@@ -255,23 +225,7 @@ background: #0065FC; }
 
 /* Marseille, France */
 .marseille {
-  width: 147px;
-  height: 21px;
-
-  font-family: "Raleway";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 21px;
-  text-align: center;
-
-  /* Black */
-  color: #000000;
-
-  /* Inside auto layout */
-  flex: none;
-  order: 1;
-  flex-grow: 0;
+  background-color: white;
 }
 
 .text {
@@ -349,14 +303,7 @@ background: #0065FC; }
   z-index: 1;
 }
 
-/* Vector */
-.vector {
-  position: relative;
-  width: 14px;
-  height: 18px;
-  left: 18px;
-  top: 15px;
-}
+
 
 /* Rectangle 14 */
 .rectangle14 {
@@ -489,11 +436,7 @@ input {
   width: 758px;
   height: 50px;
 
-  /* Inside auto layout */
-  flex: none;
   order: 2;
-  flex-grow: 0;
-  z-index: 2;
 }
 
 /* Filter */
@@ -508,7 +451,6 @@ input {
   padding: 4px 19px;
   gap: 10px;
 
-  width: 173px;
   height: 50px;
 
   /* Grey/Tint2 */
@@ -520,6 +462,15 @@ input {
   order: 1;
   flex-grow: 0;
 }
+
+
+.stylewidth173px { width: 173px;} 
+
+.stylewidth134px {width: 134px;} 
+
+.stylewidth170px {width: 170px;}
+
+.stylewidth167px {width: 167px;}
 
 .filter:hover {
   background-color: #deebff;
@@ -558,12 +509,7 @@ input {
   width: 1340px;
   height: 24px;
 
-  /* Inside auto layout */
-  flex: none;
   order: 3;
-  align-self: stretch;
-  flex-grow: 0;
-  z-index: 3;
 }
 
 /* Icon */
@@ -575,7 +521,10 @@ input {
   flex: none;
   order: 0;
   flex-grow: 0;
+  
 }
+
+.icolor {color: #0065fc;}
 
 /* Ellipse 11 */
 
@@ -609,7 +558,7 @@ input {
   padding-top: 35px;
   gap: 30px;
 
-  width: 100%;
+  width: 255px;
   height: 207.25px;
 
   /* Inside auto layout */
@@ -627,7 +576,7 @@ input {
   padding-top: 30px;
   gap: 30px;
 
-  width: 100%;
+  width: 255px;
   height: 207.25px;
 
   /* Inside auto layout */
@@ -636,6 +585,8 @@ input {
   align-self: stretch;
   flex-grow: 0;
 }
+
+.stylehebp {margin-left: 20px; margin-bottom: 10px } 
 
 /* Card/Main */
 .cardheb {
@@ -649,7 +600,7 @@ input {
   width: 255px;
   height: 207.25px;
 
-  background: #ffffff;
+  background: #ffffff; 
   /* Shadow/Card */
   box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.1);
   border-radius: 20px;
@@ -667,8 +618,9 @@ input {
   width: 250.33px;
   height: 124px;
   image-rendering: pixelated;
+  object-fit: cover;
 
-  background: url(fred-kleber-gTbaxaVLvsg-unsplash.jpg);
+  
   /* White */
   border: 5px solid #ffffff;
   border-radius: 20px 20px 0px 0px;
@@ -680,6 +632,8 @@ input {
   flex-grow: 0;
 }
 
+.afficherplus {margin-top: 50px}
+
 /****** Hebergements And Populaires ***********/
 .hebergements-and-populaires {
   display: flex;
@@ -687,7 +641,7 @@ input {
 }
 
 .hebergements-and-populaires section {
-  background-color: var(--main-bg-color);
+  background-color: var(--main-bg-color); 
   border-radius: 20px;
   padding: 30px;
   box-sizing: border-box;
@@ -740,7 +694,7 @@ input {
 }
 
 .populaires-cards .card-rating {
-  margin-bottom: 5px;
+  margin-bottom: 5px; margin-left: 20px"
 }
 
 /* Section Activités */
@@ -810,8 +764,7 @@ input {
 
   border-radius: 20px 20px 0px 0px;
   image-rendering: pixelated;
-  image-rendering: crisp-edges;
-  -o-object-fit: cover;
+  object-fit: cover;
 
   /* Inside auto layout */
   flex: none;
@@ -845,6 +798,8 @@ input {
   flex-grow: 0;
 }
 
+.h3frame16 { margin-left: 20px; margin-top: 0px}
+
 footer {
   /* Frame 14 */
 
@@ -853,18 +808,17 @@ footer {
   flex-direction: row;
   align-items: flex-start;
   padding: 0px;
-  gap: 30px; 
+  gap: 30px;
 
-  background-color: #f2f2f2;
+  background-color: #f2f2f2; 
 
-  width: 100%;
+  width: 1350px;
   height: 163px;
 
-  /* Inside auto layout */
-  flex: none;
+  
   order: 1;
   align-self: stretch;
-  flex-grow: 0;
+  
 }
 
 .footerinf {
@@ -875,7 +829,7 @@ footer {
   flex-direction: column;
   align-items: flex-start;
   padding: 20px;
- 
+
   line-height: 0;
 
   width: 446.67px;
@@ -888,18 +842,17 @@ footer {
   flex-grow: 1;
 }
 
-
 /* Le code ci-dessous correspond à la version responsive uniquement */
 
 /****** Media queries ***********/
 /* Medium devices (tablets, less/equal than 1024px) */
 @media (max-width: 1024px) {
-  .hebergements-and-populaires {
-    flex-direction: column;
+  .hebergements-and-populaires { 
+    flex-direction: column;  
   }
 
   .hebergements {
-    width: 100%;
+    width: 100%; 
   }
 
   .populaires {
@@ -924,9 +877,22 @@ footer {
   .populaires-cards .card-subtitle {
     font-size: 13px;
   }
+
+
+  
+  
+  .footer { width: 100%; background-attachment: fixed;}
 }
 
 /* Small devices (phones, less than 768px) */
 @media (max-width: 767.98px) {
   /* ... */
 }
+
+
+
+
+
+
+
+
