@@ -147,7 +147,7 @@ a {
   flex: none;
   order: 0;
   align-self: stretch;
-  flex-grow: 0;
+  
   z-index: 0;
 }
 
@@ -172,7 +172,7 @@ a {
   /* Inside auto layout */
   flex: none;
   order: 1;
-  flex-grow: 0;
+ 
   z-index: 1;
 }
 
@@ -211,7 +211,7 @@ a {
   /* Inside auto layout */
   flex: none;
   order: 0;
-  flex-grow: 0;
+  
 
   width: 50px;
   height: 49px;
@@ -255,7 +255,7 @@ a {
   flex: none;
   order: 0;
   align-self: stretch;
-  flex-grow: 0;
+  
 }
 
 /* Headline */
@@ -274,7 +274,7 @@ a {
   flex: none;
   order: 0;
   align-self: stretch;
-  flex-grow: 0;
+  
   z-index: 0;
 }
 
@@ -299,7 +299,7 @@ a {
   /* Inside auto layout */
   flex: none;
   order: 1;
-  flex-grow: 0;
+  
   z-index: 1;
 }
 
@@ -330,7 +330,7 @@ a {
   /* Inside auto layout */
   flex: none;
   order: 0;
-  flex-grow: 0;
+  
 
   width: 50px;
   height: 49px;
@@ -360,7 +360,7 @@ a {
   /* Inside auto layout */
   flex: none;
   order: 1;
-  flex-grow: 0;
+  
 }
 
 .text {
@@ -392,7 +392,7 @@ a {
   /* Inside auto layout */
   flex: none;
   order: 2;
-  flex-grow: 0;
+  
 }
 
 .Rechercher {
@@ -414,7 +414,7 @@ a {
   /* Inside auto layout */
   flex: none;
   order: 1;
-  flex-grow: 0;
+  
   cursor: pointer;
 }
 
@@ -460,7 +460,7 @@ input {
   /* Inside auto layout */
   flex: none;
   order: 1;
-  flex-grow: 0;
+  
 }
 
 
@@ -494,7 +494,7 @@ input {
   /* Inside auto layout */
   flex: none;
   order: 1;
-  flex-grow: 0;
+  
 }
 
 /* Infobar */
@@ -520,7 +520,7 @@ input {
   /* Inside auto layout */
   flex: none;
   order: 0;
-  flex-grow: 0;
+  
   
 }
 
@@ -562,10 +562,10 @@ input {
   height: 207.25px;
 
   /* Inside auto layout */
-  flex: none;
+  
   order: 1;
   align-self: stretch;
-  flex-grow: 0;
+  
 }
 
 .hebmarseille2 {
@@ -580,10 +580,10 @@ input {
   height: 207.25px;
 
   /* Inside auto layout */
-  flex: none;
+
   order: 1;
   align-self: stretch;
-  flex-grow: 0;
+  
 }
 
 .stylehebp {margin-left: 20px; margin-bottom: 10px } 
@@ -608,7 +608,7 @@ input {
   /* Inside auto layout */
   flex: none;
   order: 0;
-  flex-grow: 1;
+  
 }
 
 /* Rectangle 20 */
@@ -629,8 +629,10 @@ input {
   flex: none;
   order: 0;
   align-self: stretch;
-  flex-grow: 0;
+ 
 }
+
+.ratingheb { margin-left: 20px;}
 
 .afficherplus {margin-top: 50px}
 
@@ -713,7 +715,7 @@ input {
   flex: none;
   order: 2;
   align-self: stretch;
-  flex-grow: 0;
+  
 }
 
 /* Frame 14 */
@@ -731,8 +733,8 @@ input {
   /* Inside auto layout */
   flex: none;
   order: 1;
-  align-self: stretch;
-  flex-grow: 0;
+  
+  
 }
 
 /* Card */
@@ -754,10 +756,10 @@ input {
   /* Inside auto layout */
   flex: none;
   order: 0;
-  flex-grow: 1;
+  
 }
 
-/* Rectangle 27 */
+
 .rectpictact {
   width: 297.5px;
   height: 380px;
@@ -770,11 +772,11 @@ input {
   flex: none;
   order: 0;
   align-self: stretch;
-  flex-grow: 0;
+  
 }
 
 .actxt {
-  /* Frame 16 */
+  
 
   /* Auto layout */
   display: flex;
@@ -795,7 +797,7 @@ input {
   flex: none;
   order: 1;
   align-self: stretch;
-  flex-grow: 0;
+  
 }
 
 .h3frame16 { margin-left: 20px; margin-top: 0px}
@@ -839,14 +841,14 @@ footer {
   flex: none;
   order: 0;
   align-self: stretch;
-  flex-grow: 1;
+  
 }
 
 /* Le code ci-dessous correspond à la version responsive uniquement */
 
 /****** Media queries ***********/
 /* Medium devices (tablets, less/equal than 1024px) */
-@media (max-width: 1024px) {
+@media screen and (max-width: 1024px) {
   .hebergements-and-populaires { 
     flex-direction: column;  
   }
@@ -878,10 +880,10 @@ footer {
     font-size: 13px;
   }
 
+  
+.Frame14 {width: 30%;}
+.cardact { width: 100%;}
 
-  
-  
-  .footer { width: 100%; background-attachment: fixed;}
 }
 
 /* Small devices (phones, less than 768px) */
