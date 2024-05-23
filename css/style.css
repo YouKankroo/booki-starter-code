@@ -59,9 +59,7 @@ a {
 }
 
 .logo {
-  /* Logo/Reservia */
-
-  /* Auto layout */
+ 
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -72,15 +70,15 @@ a {
   height: 79px;
 }
 
-/* Booki */
+
 .booki {
   width: 61.09px;
   height: 19px;
 }
 
-/* Menu */
+
 .menu {
-  /* Auto layout */
+ 
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -92,9 +90,7 @@ a {
 }
 
 .buttons {
-  /* Buttons */
-
-  /* Auto layout */
+  
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
@@ -107,7 +103,7 @@ a {
   height: 35px;
 }
 
-/* Btn Hébergement */
+
 .buttonheb {
   width: 113px;
   height: 35px;
@@ -118,7 +114,7 @@ a {
   border-top: 2px solid #0065fc;
 }
 
-/* Btn Activités */
+
 .buttonact {
   width: 63px;
   height: 35px;
@@ -130,9 +126,8 @@ a {
 }
 header {display: flex; justify-content: space-between; }
 
-/* Headline */
 .headline {
-  /* Auto layout */
+ 
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -142,7 +137,6 @@ header {display: flex; justify-content: space-between; }
   width: 1340px;
   height: 53px;
 
-  /* Inside auto layout */
  
   order: 0;
   align-self: stretch;
@@ -150,9 +144,9 @@ header {display: flex; justify-content: space-between; }
   z-index: 0;
 }
 
-/* Search-bar */
+
 .searchbar {
-  /* Auto layout */
+
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -162,20 +156,20 @@ header {display: flex; justify-content: space-between; }
   width: 377px;
   height: 49px;
 
-  /* White */
+ 
   background: #ffffff;
-  /* Grey */
+
   border: 1px solid #f2f2f2;
   border-radius: 15px;
 
-  /* Inside auto layout */
+ 
   
   order: 1;
  
   z-index: 1;
 }
 
-/* Vector */
+
 .vector {
   position: relative;
   width: 14px;
@@ -185,7 +179,7 @@ header {display: flex; justify-content: space-between; }
   color: #000000;
 }
 
-/* Rectangle 14 */
+
 .rectangle14 {
   position: relative;
   width: 50px;
@@ -193,21 +187,21 @@ header {display: flex; justify-content: space-between; }
   left: 0px;
   top: 0px;
 
-  /* Grey */
+  
   background: #f2f2f2;
-  /* Grey */
+ 
   border: 1px solid #f2f2f2;
   border-radius: 15px 0px 0px 15px;
 }
 
-/* Group 15 */
+
 .group15 {
-  /* Group 15 */
+ 
 
   width: 50px;
   height: 49px;
 
-  /* Inside auto layout */
+ 
   
   order: 0;
   
@@ -222,7 +216,7 @@ header {display: flex; justify-content: space-between; }
   border: 1px solid #f2f2f2;
 }
 
-/* Marseille, France */
+
 .marseille {
   background-color: white;
 }
@@ -234,10 +228,10 @@ header {display: flex; justify-content: space-between; }
   opacity: 0px;
 }
 
-/* ******info group****** */
+
 
 .infogroup {
-  /* Auto layout */
+ 
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -250,16 +244,16 @@ header {display: flex; justify-content: space-between; }
   width: 1340px;
   height: 281px;
 
-  /* Inside auto layout */
+ 
   
   order: 0;
   align-self: stretch;
   
 }
 
-/* Headline */
+
 .headline {
-  /* Auto layout */
+ 
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -269,7 +263,7 @@ header {display: flex; justify-content: space-between; }
   width: 1340px;
   height: 53px;
 
-  /* Inside auto layout */
+ 
   
   order: 0;
   align-self: stretch;
@@ -277,9 +271,9 @@ header {display: flex; justify-content: space-between; }
   z-index: 0;
 }
 
-/* Search-bar */
+
 .searchbar {
-  /* Auto layout */
+
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -304,7 +298,7 @@ header {display: flex; justify-content: space-between; }
 
 
 
-/* Rectangle 14 */
+
 .rectangle14 {
   position: relative;
   width: 50px;
@@ -319,14 +313,14 @@ header {display: flex; justify-content: space-between; }
   border-radius: 15px 0px 0px 15px;
 }
 
-/* Group 15 */
+
 .group15 {
-  /* Group 15 */
+ 
 
   width: 50px;
   height: 49px;
 
-  /* Inside auto layout */
+ 
  
   order: 0;
   
@@ -353,10 +347,9 @@ header {display: flex; justify-content: space-between; }
   line-height: 21px;
   text-align: center;
 
-  /* Black */
   color: #000000;
 
-  /* Inside auto layout */
+  
  
   order: 1;
   
@@ -370,9 +363,9 @@ header {display: flex; justify-content: space-between; }
 }
 
 .buttonsearch {
-  /* Button/Search/Desktop */
+ 
 
-  /* Auto layout */
+
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -382,20 +375,20 @@ header {display: flex; justify-content: space-between; }
   width: 132px;
   height: 18px;
 
-  /* Blue */
+ 
   background: #0065fc;
-  /* Blue */
+
   border: 1px solid #0065fc;
   border-radius: 0px 15px 15px 0px;
 
-  /* Inside auto layout */
+
   
   order: 2;
   
 }
 
 .Rechercher {
-  /* Rechercher */
+
 
   width: 100px;
   height: 21px;
@@ -407,10 +400,10 @@ header {display: flex; justify-content: space-between; }
   line-height: 21px;
   text-align: center;
 
-  /* White */
+
   color: #ffffff;
 
-  /* Inside auto layout */
+
 
   order: 1;
   
@@ -422,10 +415,10 @@ input {
   border: none;
 }
 
-/* FilterBar */
+
 
 .filterbar {
-  /* Auto layout */
+
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -438,12 +431,12 @@ input {
   order: 2;
 }
 
-/* Filter */
+
 
 .filter {
   box-sizing: border-box;
 
-  /* Auto layout */
+
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -452,7 +445,7 @@ input {
 
   height: 50px;
 
-  /* Grey/Tint2 */
+
   border: 2px solid #d9d9d9;
   border-radius: 25px;
 
@@ -475,7 +468,7 @@ input {
   background-color: #deebff;
 }
 
-/* Économique */
+
 .txtfilt {
   width: 103px;
   height: 20px;
@@ -485,12 +478,12 @@ input {
   font-weight: 700;
   font-size: 17px;
   line-height: 20px;
-  /* identical to box height */
+ 
 
-  /* Black */
+
   color: #000000;
 
-  /* Inside auto layout */
+  
 
   order: 1;
   
@@ -560,36 +553,20 @@ input {
   width: 255px;
   height: 207.25px;
 
-  /* Inside auto layout */
+ 
   
   order: 1;
   align-self: stretch;
   
 }
 
-.hebmarseille2 {
-  /* Auto layout */
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  padding-top: 30px;
-  gap: 30px;
 
-  width: 255px;
-  height: 207.25px;
-
-  /* Inside auto layout */
-
-  order: 1;
-  align-self: stretch;
-  
-}
 
 .stylehebp {margin-left: 20px; margin-bottom: 10px } 
 
-/* Card/Main */
+
 .cardheb {
-  /* Auto layout */
+ 
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -600,17 +577,17 @@ input {
   height: 207.25px;
 
   background: #ffffff; 
-  /* Shadow/Card */
+
   box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.1);
   border-radius: 20px;
 
-  /* Inside auto layout */
+
   
   order: 0;
   
 }
 
-/* Rectangle 20 */
+
 .rectpic {
   box-sizing: border-box;
 
@@ -620,11 +597,11 @@ input {
   object-fit: cover;
 
   
-  /* White */
+ 
   border: 5px solid #ffffff;
   border-radius: 20px 20px 0px 0px;
 
-  /* Inside auto layout */
+ 
 
   order: 0;
   align-self: stretch;
