@@ -124,7 +124,7 @@ a {
   color: #0065fc; 
   border-top: 2px solid #0065fc;
 }
-header {display: flex; justify-content: space-between; }
+header {display: flex; justify-content: space-between; margin-top: 20px; }
 
 .headline {
  
@@ -694,19 +694,20 @@ input {
   
 }
 
-/* Frame 14 */
+
 .Frame14 {
-  /* Auto layout */
+ 
   display: flex;
   flex-direction: row;
   align-items: flex-start;
-  padding: 0px;
+
+  
   gap: 30px;
 
   width: 100%;
-  height: 439px;
+ 
 
-  /* Inside auto layout */
+
   
   order: 1;
   
@@ -722,7 +723,7 @@ input {
   align-items: center;
   padding: 0px;
 
-  width:297.5px;
+  width:298px;
   height: 439px;
 
   /* Shadow/Card */
@@ -731,20 +732,20 @@ input {
 
   /* Inside auto layout */
 
-  order: 0;
+
   
 }
 
 
 .rectpictact {
-  width: 297.5px;
+  width: 100%;
   height: 380px;
 
   border-radius: 20px 20px 0px 0px;
-  image-rendering: pixelated;
+  
   object-fit: cover;
 
-  /* Inside auto layout */
+
  
   order: 0;
   align-self: stretch;
@@ -772,7 +773,8 @@ input {
   /* Inside auto layout */
 
   order: 1;
-  align-self: stretch;
+  
+
 
   
   
@@ -781,7 +783,7 @@ input {
 .h3frame16 { margin-left: 20px; margin-top: 0px}
 
 footer {
-  /* Frame 14 */
+ 
 
   /* Auto layout */
   display: flex;
@@ -792,7 +794,7 @@ footer {
 
   background-color: #f2f2f2; 
 
-  width: 1350px;
+  width: 100%;
   height: 163px;
 
   
@@ -859,9 +861,27 @@ footer {
   }
 
   
-.Frame14 {width: 20%;padding-left: 60px;}
-.cardact {   width: 100%;}
-.rectpictact {width: 70%;}
+  .Frame14 {
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .cardact {
+    width: auto; /* Adaptez la largeur des cartes */
+    height: auto; /* Ajustez la hauteur automatiquement */
+  }
+
+  .rectpictact {
+    height: auto; /* Ajustez la hauteur automatiquement */
+  }
+
+  .actxt {
+    width: auto; /* Adaptez la largeur des textes */
+  }
+  
+
+  }
+
 
 
 
@@ -881,4 +901,5 @@ footer {width: 100%;}
 
 
 
-}
+
+
