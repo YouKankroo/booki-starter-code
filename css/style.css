@@ -449,7 +449,7 @@ input {
   border: 2px solid #d9d9d9;
   border-radius: 25px;
 
-  /* Inside auto layout */
+  
 
   order: 1;
   
@@ -489,9 +489,9 @@ input {
   
 }
 
-/* Infobar */
+
 .infobar {
-  /* Auto layout */
+  
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -504,12 +504,12 @@ input {
   order: 3;
 }
 
-/* Icon */
+
 .icon {
   width: 24px;
   height: 24px;
 
-  /* Inside auto layout */
+ 
 
   order: 0;
   
@@ -518,7 +518,6 @@ input {
 
 .icolor {color: #0065fc;}
 
-/* Ellipse 11 */
 
 .ellipseinfo {
   box-sizing: border-box;
@@ -530,7 +529,7 @@ input {
   top: 0px;
   left: 5px;
 
-  /* Grey/Tint2 */
+ 
   border: 1px solid #d9d9d9;
   border-radius: 50% 50%;
 }
@@ -541,9 +540,9 @@ input {
 
 /* ----------------------------------------------------------------------------------------------------------------------------------------         */
 
-/* Frame 15 */
+
 .hebmarseille {
-  /* Auto layout */
+ 
   display: flex;
   flex-direction: row;
   align-items: flex-start;
@@ -675,9 +674,9 @@ input {
   margin-bottom: 5px; margin-left: 20px"
 }
 
-/* Section Activités */
+
 .activites {
-  /* Auto layout */
+ 
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -687,7 +686,7 @@ input {
   width: 100%;
   height: 559.02px;
 
-  /* Inside auto layout */
+  
   
   order: 2;
   align-self: stretch;
@@ -714,9 +713,9 @@ input {
   
 }
 
-/* Card */
+
 .cardact {
-  /* Auto layout */
+  
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
@@ -726,11 +725,11 @@ input {
   width:298px;
   height: 439px;
 
-  /* Shadow/Card */
+ 
   filter: drop-shadow(0px 3px 15px rgba(0, 0, 0, 0.1));
   border-radius: 20px;
 
-  /* Inside auto layout */
+ 
 
 
   
@@ -755,7 +754,7 @@ input {
 .actxt {
   
 
-  /* Auto layout */
+ 
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -766,11 +765,11 @@ input {
   width: 260px;
   height: 59px;
 
-  /* White */
+  
   background: #ffffff;
   border-radius: 0px 0px 20px 20px;
 
-  /* Inside auto layout */
+ 
 
   order: 1;
   
@@ -785,7 +784,7 @@ input {
 footer {
  
 
-  /* Auto layout */
+ 
   display: flex;
   flex-direction: row;
   align-items: flex-start;
@@ -804,9 +803,7 @@ footer {
 }
 
 .footerinf {
-  /* A propos */
-
-  /* Auto layout */
+  
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -817,7 +814,7 @@ footer {
   width: 446.67px;
   height: 163px;
 
-  /* Inside auto layout */
+  
 
   order: 0;
   align-self: stretch;
@@ -867,16 +864,14 @@ footer {
   }
 
   .cardact {
-    width: auto; /* Adaptez la largeur des cartes */
-    height: auto; /* Ajustez la hauteur automatiquement */
-  }
+    width: auto; }
 
   .rectpictact {
-    height: auto; /* Ajustez la hauteur automatiquement */
+    height: auto; 
   }
 
   .actxt {
-    width: auto; /* Adaptez la largeur des textes */
+    width: auto; 
   }
   
 
