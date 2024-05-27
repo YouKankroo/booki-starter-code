@@ -857,21 +857,23 @@ footer {
     font-size: 13px;
   }
 
-  
-  .Frame14 {
+
+
+  .Frame14 { display: flex;
     flex-direction: row;
     align-items: center;
+   
   }
 
+  .rectpictact
+ 
   .cardact {
-    width: auto; }
+    width: auto;  }
 
-  .rectpictact {
-    height: auto; 
-  }
+
 
   .actxt {
-    width: auto; 
+    width: auto
   }
   
 
