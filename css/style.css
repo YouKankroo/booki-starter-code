@@ -698,17 +698,16 @@ input {
  
   display: flex;
   flex-direction: row;
-  align-items: flex-start;
-
   
-  gap: 30px;
-
+ gap: 10px;
+ 
+  
   width: 100%;
  
 
 
   
-  order: 1;
+
   
   
 }
@@ -722,7 +721,7 @@ input {
   align-items: center;
   padding: 0px;
 
-  width:298px;
+  width:35%;
   height: 439px;
 
  
@@ -760,10 +759,10 @@ input {
   justify-content: center;
   align-items: flex-start;
   padding: 20px 19px;
-  gap: 10px;
 
-  width: 260px;
-  height: 59px;
+
+height: 55px;
+ 
 
   
   background: #ffffff;
