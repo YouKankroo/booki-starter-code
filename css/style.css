@@ -153,9 +153,7 @@ header {display: flex; justify-content: space-between; margin-top: 20px; }
   padding: 0px;
   gap: 24px;
 
-  width: 377px;
-  height: 49px;
-
+  
  
   background: #ffffff;
 
@@ -235,14 +233,11 @@ header {display: flex; justify-content: space-between; margin-top: 20px; }
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  margin-top: 50px;
-  margin-bottom: 50px;
+  margin-bottom: 25px;
   gap: 25px;
-  isolation: isolate;
   top: 20px;
 
-  width: 1340px;
-  height: 281px;
+ 
 
  
   
@@ -498,8 +493,7 @@ input {
   padding: 0px;
   gap: 10px;
 
-  width: 1340px;
-  height: 24px;
+ 
 
   order: 3;
 }
@@ -545,17 +539,17 @@ input {
  
   display: flex;
   flex-direction: row;
-  align-items: flex-start;
+  
   padding-top: 35px;
   gap: 30px;
 
-  width: 255px;
-  height: 207.25px;
-
+  width: 100%;
  
+
+  align-items: flex-start;
   
   order: 1;
-  align-self: stretch;
+
   
 }
 
@@ -568,12 +562,12 @@ input {
  
   display: flex;
   flex-direction: column;
-  align-items: center;
+ 
   padding: 0px 0px 15px;
-  gap: 4px;
+  
 
-  width: 255px;
-  height: 207.25px;
+  width: 30%;
+ 
 
   background: #ffffff; 
 
@@ -590,10 +584,11 @@ input {
 .rectpic {
   box-sizing: border-box;
 
-  width: 250.33px;
+  width: 100%;
   height: 124px;
   image-rendering: pixelated;
   object-fit: cover;
+  overflow: hidden;
 
   
  
@@ -607,7 +602,11 @@ input {
  
 }
 
-.ratingheb { margin-left: 20px;}
+.frame16 {
+    padding: 0px 15px; display: flex; flex-direction: column; justify-content: space-between; box-sizing: border-box;
+    }
+
+    .ratingheb { margin-left: 20px;}
 
 .afficherplus {margin-top: 50px}
 
@@ -680,16 +679,17 @@ input {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
+  width: 100%;
   padding: 30px;
   gap: 30px;
 
-  width: 100%;
-  height: 559.02px;
+  
+
 
   
   
-  order: 2;
-  align-self: stretch;
+ 
+ 
   
 }
 
@@ -859,22 +859,7 @@ footer {
 
 
 
-  .Frame14 { display: flex;
-    flex-direction: row;
-    align-items: center;
-   
-  }
-
-  .rectpictact
- 
-  .cardact {
-    width: auto;  }
-
-
-
-  .actxt {
-    width: auto
-  }
+  
   
 
   }
@@ -882,7 +867,7 @@ footer {
 
 
 
-footer {width: 100%;}
+
 
 
 
