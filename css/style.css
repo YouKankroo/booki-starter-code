@@ -560,7 +560,7 @@ input {
 display: flex;
 flex-direction: row;
 align-items: flex-start;
-padding: 30px 0px 30px 0px;
+padding: 30px 0px 0px 0px;
 gap: 30px;
 
 height: 207.25px;
@@ -581,6 +581,7 @@ margin-top: 5PX;
   
 
   width: 30%;
+  height: 200PX;
  
 
   background: #ffffff; 
@@ -624,9 +625,11 @@ margin-top: 5PX;
     padding-left: 15px;
     }
 
-    .ratingheb { margin-left: 20px;}
+    .card-marg { margin: 0px;}
 
-.afficherplus {margin-top: 50px}
+    .ratingheb { margin-left: 0px;}
+
+.afficherplus {margin-top: 20px}
 
 /****** Hebergements And Populaires ***********/
 .hebergements-and-populaires {
