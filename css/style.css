@@ -124,7 +124,7 @@ a {
   color: #0065fc; 
   border-top: 2px solid #0065fc;
 }
-header {display: flex; justify-content: space-between; margin-top: 20px; }
+header {display: flex; justify-content: space-between; margin-top: 0px; }
 
 .headline {
  
@@ -625,9 +625,9 @@ margin-top: 5PX;
     padding-left: 15px;
     }
 
-    .card-marg { margin: 0px;}
-
-    .ratingheb { margin-left: 0px;}
+    .card-marg { margin-top: 0px;}
+.card-ratingheb {margin-top: 10px;}
+    .card-subtitleheb {margin-bottom: 10px;}
 
 .afficherplus {margin-top: 30px}
 
@@ -899,7 +899,6 @@ footer {
 
   .card-subtitle , .card-title { font-size: 10px;}
 }
-
 
 
 
