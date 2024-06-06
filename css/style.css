@@ -627,7 +627,7 @@ margin-top: 5PX;
 
     .card-marg { margin-top: 0px;}
 .card-ratingheb {margin-top: 10px;}
-    .card-subtitleheb {margin-bottom: 10px;}
+.card-subtitleheb {margin-bottom: 10px;}
 
 .afficherplus {margin-top: 30px}
 
@@ -897,7 +897,7 @@ footer {
 @media (max-width: 1280px) {
   /* ... */
 
-  .card-subtitle , .card-title { font-size: 10px;}
+  .card-subtitle , .card-title ,.card-subtitleheb { font-size: 12px;}
 }
 
 
